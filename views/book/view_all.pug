@@ -1,0 +1,26 @@
+extends ../layout
+
+block content
+    h3 Books
+    table
+        thead
+            tr
+                th Book Title
+                th Author
+                th Genre
+                th Pages
+                th Image
+                th Description
+                th
+            tbody
+                each book in books
+                    tr
+                        td= book.title
+                        td= book.author
+                        td= book.genre
+                        td= book.pages
+                        td= book.image
+                        td= book.description
+                        td
+                            a(href=`/book/profile/${book.id}`) View Book
+                            // I'm not sure if this is working properly, if something breaks its probably here

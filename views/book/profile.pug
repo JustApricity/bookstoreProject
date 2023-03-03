@@ -1,0 +1,13 @@
+extends ../layout
+
+block content
+    div.book-content
+        h3 #{book.title}
+        p #{book.genre}
+        p #{book.pages}
+        p #{book.description}
+    div.book-image
+        #{book.image}
+    div.author-content
+        p Author:
+        p #{book.author}

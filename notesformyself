@@ -1,0 +1,6 @@
+the edit.pug in book could very well break, I'm unsure of how exactly to fix it. Slide for this is 24 on the first powerpoint
+Line 26 on view_all in book could also break
+bookForm might break, the mixin itself
+fix images in bookForm, unsure how to call them(MOST URGENT RIGHT NOW)
+
+remember to edit the length and height a row can have in the description of bookForm
