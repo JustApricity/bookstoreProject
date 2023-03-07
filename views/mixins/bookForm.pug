@@ -26,5 +26,8 @@ mixin bookForm(book, author, saveURL, cancelURL)
 
             div.form-input
                 label(for='image') Image
-                input
-                //left off here
+                input(id='image' name='image' value=book.image)
+
+            div.form-buttons
+                a.button(href=cancelURL) Cancel
+                button.button(type='submit') Save
