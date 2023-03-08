@@ -18,4 +18,6 @@ router.get('/book/delete/:id', bookController.deleteBook);
 
 
 router.get('/authors', authorController.viewAll);
+router.get('/author/profile/:id', authorController.viewProfile);
+router.get('/author/delete/:id', authorController.deleteAuthor);
 module.exports = router;
